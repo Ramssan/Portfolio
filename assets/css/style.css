@@ -1,0 +1,116 @@
+nav{
+    background-color: #025959 !important;
+}
+
+body{
+    background-color: #012626  !important;
+}       
+
+.active{
+    color: white !important;
+}
+
+.container-foto-text{
+    margin-top: 120px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px; 
+}
+
+.container-text{
+    color:white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-projecten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+
+
+.card{
+    width: 300px !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px !important;
+    height: 400px !important;
+}
+
+.container-form{
+    display: flex;
+   justify-content: center;
+}
+
+.container-form form h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container-form form{
+    margin-top: 50px;
+    width: 500px;
+    height: 550px;
+    padding: 10px;
+}
+
+.container-form form .container-button{
+    padding-top: 10px;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+
+
+
+.form-body{
+    background-image: url('/assets/images/Afbeelding1.jpg') !important; 
+    background-size: cover !important; 
+    background-repeat: no-repeat !important; 
+    background-position: center !important; 
+    background-attachment: fixed !important; 
+}
+
+
+.container-form form label{
+    color: white;
+}
+
+.project-container,
+.project-MDO,
+.project-port{
+    margin-top: 120px;
+    padding-right: 10%;
+    padding-left:  10%;
+    color:white; 
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+}
+
+.img-project-container{
+    display: flex;
+justify-content: center;
+}
+.miswak-container{
+    display:flex;
+    justify-content: right;
+    
+}
+
+
+.miswak-container img{
+    padding-right: 37%;
+}
